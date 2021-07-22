@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GilGal AppLock"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:background="@color/cyan"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:showText="true"
+        android:thumb="@drawable/thump"
+        app:track="@drawable/track"
+        android:id="@+id/switchId"/>
+
+
+
+
+
+</RelativeLayout>
